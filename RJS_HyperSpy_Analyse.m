@@ -1,6 +1,7 @@
 clear; close all; clc;
 
-FOI = "C:\Users\mans3428\OneDrive - Nexus365\DPhil\Data\SEM\EDX\HyperSpy\RJSP5 EDX High Mag 02";
+% Folder of interest i.e. where the *.hspy files were saved to by MatlabExport
+FOI = "";
 
 D = string({dir(fullfile(FOI, '*.hspy')).name});
 
